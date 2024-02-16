@@ -86,6 +86,10 @@ nav a{
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .section-title{
     color: rgb(24, 24, 24);
     font-size: 35px;
@@ -106,4 +110,11 @@ nav a{
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-inf{
+    text-align: center;
 }
