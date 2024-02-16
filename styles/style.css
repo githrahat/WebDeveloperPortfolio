@@ -1,5 +1,7 @@
 /* Common Styles */
 *{
+    padding: 0;
+    margin: 0;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -23,6 +25,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 0 200px;
+    padding-top: 20px;
 }
 .nav-title{
 font-size: 45px;
@@ -42,4 +46,17 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/* header related styles */
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+    width: 500px;
 }
