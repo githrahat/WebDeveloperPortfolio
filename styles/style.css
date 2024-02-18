@@ -182,3 +182,16 @@ line-height: 28px;
     margin-top: 50px;
     text-align: center;
 }
+
+/* footer styles */
+
+footer{
+    display: flex;
+    gap: 100px;
+    background: #fff8f3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.footer-column{
+    width: 50%;
+}
