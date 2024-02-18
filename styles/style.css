@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: "Open Sans", sans-serif;
+    text-decoration: none
 }
 
 /* Font */
@@ -90,6 +91,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 .section-title{
     color: rgb(24, 24, 24);
     font-size: 35px;
@@ -116,5 +120,65 @@ main{
     justify-content: space-around;
 }
 .about-inf{
+    text-align: center;
+}
+
+/* What I Do Description related styles */
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+.skill-description{
+    color: rgb(117, 117, 117);
+}
+
+/* Resume Section Styles */
+.resume-column-title{
+    color: rgb(71, 71, 71);
+    font-weight: 700;
+    line-height: 41px;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.resume-item-title{
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+}
+.resume-item-institute{
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+}
+.resume-item-description{
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+.resume-item-institute, .resume-item-description{
+    padding: 10px 0;
+    color: #757575;
+}
+.resume-column-title hr{
+    margin: 20px 0;
+}
+
+.download-cv{
+    margin-top: 50px;
     text-align: center;
 }
